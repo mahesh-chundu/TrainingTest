@@ -2,7 +2,7 @@ describe("empty spec", () => {
   beforeEach("passes", () => {
     cy.visit("https://kitchen.applitools.com/ingredients/iframe");
   });
-
+ 
   it("Verify iframe", () => {
     //cy.get('#the-kitchen-table').its('contentDocument.body').then(cy.wrap)
     // .find('button.ytp-large-play-button').should('be.visible')
